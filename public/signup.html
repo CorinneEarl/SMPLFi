@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SMPLFi - Sign Up</title>
+	</head>
+	<body>
+	<header>
+			<h1>SMPLFi - Sign Up</h1>
+			<div>
+				<ul>
+					<li><a href="./login.html">Login</a></li>
+					<li><a href="./signup.html">Signup</a></li>
+					<li><a href="./myAccount.html">My Account</a></li>
+					<li><a href="./dailyTasks.html">Daily Tasks</a></li>
+					<li><a href="./projects.html">Projects</a></li>
+					<li><a href="./about.html">About</a></li>
+				</ul>
+			</div>
+		</header>
+		<form>
+			<input type="text" class="textInput" id="firstName" placeholder="First name">
+			<input type="text" class="textInput" id="lastName" placeholder="Last name">
+			<input type="text" class="textInput" id="username" placeholder="Username">
+			<input type="password" class="textInput" id="password" placeholder="Password">
+			<input type="password" class="textInput" id="confirmPassword" placeholder="Confirm password">
+			<input type="email" class="textInput" id="emailInput" placeholder="Email address">
+			<select name="workplace">
+				<h2>Select workplace:</h2>
+				<option value="Main Office">Main Office</option>
+				<option value="The Garage">The Garage</option>
+				<option value="Add new workplace">Add new workplace</option>
+			</select>
+			<input type="text" class="textInput" id="newWorkplace" placeholder="New workplace"> 
+			<form>
+				<h2>Select workplace status:</h2>
+				<input type="radio" class="radio" name="userType" value="Manager"> <label>Manager</label><br>
+				<input type="radio" class="radio" name="userType" value="Employee"> <label>Employee</label><br>
+			</form>
+			<input type="file" class="textInput" id="profilePic" value="Upload profile picture">
+			<input type="button" class="textInput" id="createAccount" value="Create account">
+		</form>
+		<div class="underForm">Already have an account? <a href="./login.html">Login</a></div>
+	</body>
+</html>
